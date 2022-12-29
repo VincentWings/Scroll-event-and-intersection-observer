@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 213, 25);
+}
+
+h1 {
+    margin: 0;
+}
+
+.terms-and-conditions {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+}
+
+.terms-and-conditions__content {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.terms-and-conditions__approve {
+    width: 100%;
+    margin-top: 20px;
+    background: #fff;
+}
+
+.terms-and-conditions__approve .btn-accept {
+    width: 100%;
+    padding: 15px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.btn-accept[disabled] {
+    opacity: .1;
+}
