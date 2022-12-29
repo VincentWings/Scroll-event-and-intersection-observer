@@ -1,4 +1,4 @@
-# Scroll-event-and-intersection-observer
+# Scroll Event and Intersection observer
 
 This script demonstrates the use of both a scroll event and an intersection observer to enable a "accept" button on a page.
 
